@@ -5,8 +5,10 @@ import AppNavigator from './navigation/AppNavigator';
 import {useFonts} from 'expo-font';
 
 export default function App() {
+  // Loading custom fonts
   const [loadedFont] = useFonts({play: require('./assets/fonts/Play.ttf')});
   if(!loadedFont) return null;
+  
   return (
     <SafeAreaView style={styles.container}>
       <AppNavigator />

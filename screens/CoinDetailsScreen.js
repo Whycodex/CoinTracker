@@ -10,7 +10,7 @@ const CoinDetailsScreen = ({ route }) => {
   const fetchCoinChartData = async (coin) => {
     try {
       const response = await fetch(
-        `https://api.binance.com/api/v3/klines?symbol=${coin.symbol}&interval=1d&limit=30`
+        `https://api.binance.com/api/v3/klines?symbol=${coin.symbol}&interval=1d&limit=30`  // Fetching details for individual coin for mapping in charts
       );
       const data = await response.json();
       const labels = data.map((item) => new Date(item[0]).toLocaleDateString());

@@ -17,8 +17,8 @@ const HomeScreen = ({ navigation }) => {
         setCoinData(data);
       } else {
         try {
-          data = await ApiService.fetchCoinData();
-          CacheService.cacheCoinData(data);
+          data = await ApiService.fetchCoinData(); // Making API calls
+          CacheService.cacheCoinData(data);  // Storing in local storage
           setCoinData(data);
         } catch (error) {
           setIsError(true);
