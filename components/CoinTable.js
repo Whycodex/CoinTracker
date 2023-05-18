@@ -37,9 +37,9 @@ const CoinTable = ({ data, onCoinPress }) => {
     const renderItem = ({ item }) => {
         return (
             <TouchableOpacity style={styles.row} onPress={() => onCoinPress(item)}>
-                <Text style={styles.symbolText}>{item.symbol}</Text>
+                <Text style={styles.text}>{item.symbol}</Text>
                 <Text style={styles.text}>{formatValue(item.price)}</Text>
-                <Text style={styles.text}>{formatValue(item.volume)}</Text>
+                <Text style={styles.volumeText}>{formatValue(item.volume)}</Text>
             </TouchableOpacity>
         );
     }
@@ -63,11 +63,12 @@ const CoinTable = ({ data, onCoinPress }) => {
 
     return (
         <View style={styles.container}>
-            <Image
+            {/* <Image
+                // Background image with blur effect
                 source={{ uri: DATA[0].image }}
                 style={StyleSheet.absoluteFillObject}
                 blurRadius={10}
-            />
+            /> */}
 
             <View style={styles.header}>
 
@@ -156,7 +157,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
         paddingVertical: 12,
         borderColor: '#ffffff',
-        // backgroundColor: 'black',  // Give this a try it was looking cool
         borderWidth: 3,
         height: 50,
         margin: 10,
@@ -172,20 +172,36 @@ const styles = StyleSheet.create({
         shadowRadius: 20,
         elevation: 4
     },
-    symbolText: {
-        backgroundColor: 'black',
+    volumeText: {
+        backgroundColor: '#161621',
         height: 40,
         padding: 12,
         color: 'white',
         fontWeight: 'bold',
         width: '35%',
         borderWidth: 1,
-        borderRightWidth: 3,
+        borderLeftWidth: 3,
         borderColor: 'white',
         borderRadius: 8,
-        borderTopLeftRadius: 32,
-        borderBottomLeftRadius: 32,
-        right: '40%',
+        borderTopRightRadius: 32,
+        borderBottomRightRadius: 32,
+        left: '40%',
+        textAlign: 'center'
+    },
+    priceText: {
+        backgroundColor: '#161621',
+        height: 40,
+        padding: 12,
+        color: 'white',
+        fontWeight: 'bold',
+        width: '35%',
+        borderWidth: 1,
+        borderLeftWidth: 3,
+        borderColor: 'white',
+        borderRadius: 8,
+        borderTopRightRadius: 32,
+        borderBottomRightRadius: 32,
+        left: '40%',
         textAlign: 'center'
     },
     text: {

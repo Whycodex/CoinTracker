@@ -29,11 +29,12 @@ const CoinDetailsScreen = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <Image
+      {/* <Image
+        // Background image with blur effect
         source={{ uri: DATA[0].image }}
-        style={StyleSheet.absoluteFillObject}
+        style={StyleSheet.absoluteFillObject} 
         blurRadius={10}
-      />
+      /> */}
       <View style={styles.coinContainer}>
         <Image
           source={{ uri: DATA[2].image }}
