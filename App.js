@@ -1,20 +1,22 @@
+import React from 'react';
+import { SafeAreaView, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import AppNavigator from './navigation/AppNavigator';
+import {useFonts} from 'expo-font';
 
 export default function App() {
+  const [loadedFont] = useFonts({play: require('./assets/fonts/Play.ttf')});
+  if(!loadedFont) return null;
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <SafeAreaView style={styles.container}>
+      <AppNavigator />
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex: 1
   },
 });
