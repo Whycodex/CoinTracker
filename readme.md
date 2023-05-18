@@ -1,4 +1,4 @@
-For running this project follow the below steps
+# For running this project follow the below steps
 
 Step 1 - Goto your desired file location and open terminal.
 
@@ -33,4 +33,11 @@ Step 6 - After installing all the dependencies, simply run the following command
 npx expo start
 
 
-Find the demo video for this app with this link - https://drive.google.com/file/d/1n4GYfKgxBq0XmIFIALUSrWKGnZ3rUHqK/view?usp=share_link
+# Screenshots
+![image](https://github.com/Whycodex/Density-CoinTracker/assets/96807353/ea9c4f1d-d5a1-4097-8c59-edc6adb110b6)
+![image](https://github.com/Whycodex/Density-CoinTracker/assets/96807353/07f5f10a-cc39-47ad-baf7-e36fc4034b12)
+
+
+
+# Find the demo video for this app with this link
+https://drive.google.com/file/d/1n4GYfKgxBq0XmIFIALUSrWKGnZ3rUHqK/view?usp=share_link
