@@ -7,6 +7,7 @@ class ApiService {
         symbol: item.symbol,
         price: item.lastPrice,
         volume: item.volume,
+        percent: item.priceChangePercent
       }));
       return coinData;
     } catch (error) {

@@ -30,6 +30,7 @@ const HomeScreen = ({ navigation }) => {
   }, []);
 
   const handleCoinPress = (coin) => {
+    
     navigation.navigate('CoinDetails', { coin });
   };
 
