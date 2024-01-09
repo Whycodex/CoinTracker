@@ -6,7 +6,7 @@ Step 1 - Goto your desired file location and open terminal.
 
 Step 2 - Clone the project here by using the following command
 
-git clone https://github.com/Whycodex/Density-CoinTracker.git
+git clone https://github.com/Whycodex/CoinTracker.git
 
 
 
@@ -40,4 +40,4 @@ npx expo start
 
 
 # Find the demo video for this app with this link
-https://drive.google.com/file/d/1n4GYfKgxBq0XmIFIALUSrWKGnZ3rUHqK/view?usp=share_link
+https://drive.google.com/file/d/13a7jVE0PrsUpr4YNfynXlCsSEdIz3k8V/view?usp=drive_link
