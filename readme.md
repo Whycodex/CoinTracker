@@ -34,8 +34,8 @@ npx expo start
 
 
 # Screenshots
-![image](https://github.com/Whycodex/Density-CoinTracker/assets/96807353/ea9c4f1d-d5a1-4097-8c59-edc6adb110b6)
-![image](https://github.com/Whycodex/Density-CoinTracker/assets/96807353/07f5f10a-cc39-47ad-baf7-e36fc4034b12)
+![Image1](Cointracker1.png)
+![Image2](Cointracker2.png)
 
 
 
