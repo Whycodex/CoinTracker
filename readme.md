@@ -40,4 +40,4 @@ npx expo start
 
 
 # Find the demo video for this app with this link
-https://drive.google.com/file/d/13a7jVE0PrsUpr4YNfynXlCsSEdIz3k8V/view?usp=drive_link
+https://drive.google.com/file/d/13nbc7atdpNrnUPWHW08VbJG2RZTYGHYG/view?usp=drive_link
