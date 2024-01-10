@@ -1,3 +1,16 @@
+# About this project
+
+This is a react native project built using expo CLI and it uses the best practises and industry standards. It is used to fetch real time cryptocurrency prices from binance APIs and render them visually using graphs and provide sorting facility to the user
+
+The key things achieved by me through this project were -
+
+- React native animations using reanimated library and interpolate function
+- Caching mechanism
+- Graph library utilization
+- Sorting functionality of the prices
+
+
+
 # For running this project follow the below steps
 
 Step 1 - Goto your desired file location and open terminal.
@@ -12,11 +25,11 @@ git clone https://github.com/Whycodex/CoinTracker.git
 
 Step 3 - Now change directory from the terminal using the following command
 
-cd Density-CoinTracker/
+cd CoinTracker/
 
 
 
-Step 4 - Open this folder inside a code editor of your choice by using the following command (you can use vs code for it’s extensive features) and make sure to be inside the sfa-native folder
+Step 4 - Open this folder inside a code editor of your choice by using the following command (you can use vs code for it’s extensive features) and make sure to be inside the CoinTracker folder
 
 code .
 
